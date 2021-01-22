@@ -1,6 +1,6 @@
-import CustomError from "./CustomError";
+import { CustomError } from "./CustomError";
 
-export default class DBConnectionError extends CustomError {
+export class DBConnectionError extends CustomError {
   reason = "Error connecting to database";
   statusCode = 503;
 

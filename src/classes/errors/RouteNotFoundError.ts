@@ -1,6 +1,6 @@
-import CustomError from "./CustomError";
+import { CustomError } from "./CustomError";
 
-export default class RouteNotFoundError extends CustomError {
+export class RouteNotFoundError extends CustomError {
   statusCode = 404;
 
   constructor() {
