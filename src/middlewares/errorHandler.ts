@@ -13,7 +13,9 @@ export const errorHandler = (
     });
   }
 
-  // Defaulting to general error
+  // Some different error occured, logging it out
+  console.error(err);
+  // Defaulting to a general error
   res.status(400).send({
     errors: [{ message: err.message }],
   });
