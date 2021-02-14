@@ -1,4 +1,4 @@
-import { Subjects } from "./Subjects";
+import { Subjects } from "./types/Subjects";
 import { Message, Stan } from "node-nats-streaming";
 
 interface Event {

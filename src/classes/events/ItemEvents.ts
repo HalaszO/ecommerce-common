@@ -1,4 +1,4 @@
-import { Subjects } from "./Subjects";
+import { Subjects } from "./types/Subjects";
 
 export interface ItemCreatedEvent {
   subject: Subjects.ItemCreated;
@@ -6,7 +6,7 @@ export interface ItemCreatedEvent {
     id: string;
     title: string;
     price: number;
-	userId: string;
+    userId: string;
   };
 }
 

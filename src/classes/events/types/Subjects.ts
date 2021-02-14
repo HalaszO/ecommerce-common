@@ -3,5 +3,5 @@ export enum Subjects {
   ItemUpdated = "item:updated",
   ItemDeleted = "item:deleted",
   OrderCreated = "order:created",
-  OrderUpdated = "order:updated ",
+  OrderUpdated = "order:updated",
 }
