@@ -1,4 +1,4 @@
-export enum Orderstatus {
+export enum OrderStatus {
   // Item not yet reserved but the order was created
   Created = "created",
   Cancelled = "cancelled",
