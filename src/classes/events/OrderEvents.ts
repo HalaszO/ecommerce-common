@@ -8,6 +8,7 @@ export interface OrderCreatedEvent {
     status: OrderStatus;
     userId: string;
     expiresAt: string;
+    version: number;
     item: {
       id: string;
       price: number;
@@ -22,6 +23,7 @@ export interface OrderUpdatedEvent {
     status: OrderStatus;
     userId: string;
     expiresAt: string;
+    version: number;
     item: {
       id: string;
       price: number;

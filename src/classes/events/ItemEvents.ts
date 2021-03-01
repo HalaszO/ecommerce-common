@@ -7,6 +7,7 @@ export interface ItemCreatedEvent {
     title: string;
     price: number;
     userId: string;
+    version: number;
   };
 }
 
@@ -17,5 +18,6 @@ export interface ItemUpdatedEvent {
     title: string;
     price: number;
     userId: string;
+    version: number;
   };
 }
