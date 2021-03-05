@@ -36,6 +36,7 @@ export interface OrderCancelledEvent {
   data: {
     id: string;
     userId: string;
+    version: number;
     item: {
       id: string;
     };
