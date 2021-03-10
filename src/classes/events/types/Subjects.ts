@@ -6,4 +6,6 @@ export const enum Subjects {
   OrderCreated = "order:created",
   OrderUpdated = "order:updated",
   OrderCancelled = "order:cancelled",
+
+  ExpirationComplete = "expiration:complete",
 }

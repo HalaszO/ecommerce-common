@@ -10,10 +10,11 @@ export * from "./middlewares/errorHandler";
 export * from "./middlewares/requestValidation";
 export * from "./middlewares/requireAuth";
 
-export * from "./classes/events/types/Subjects";
+export * from "./classes/events/ExpirationEvents";
 export * from "./classes/events/ItemEvents";
 export * from "./classes/events/OrderEvents";
 export * from "./classes/events/BaseListener";
 export * from "./classes/events/BasePublisher";
 
 export * from "./classes/events/types/OrderStatus";
+export * from "./classes/events/types/Subjects";
