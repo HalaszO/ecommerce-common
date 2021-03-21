@@ -13,6 +13,7 @@ export * from "./middlewares/requireAuth";
 export * from "./classes/events/ExpirationEvents";
 export * from "./classes/events/ItemEvents";
 export * from "./classes/events/OrderEvents";
+export * from "./classes/events/PaymentEvents";
 export * from "./classes/events/BaseListener";
 export * from "./classes/events/BasePublisher";
 
